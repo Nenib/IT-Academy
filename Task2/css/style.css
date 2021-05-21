@@ -1,0 +1,27 @@
+
+.car{
+    max-width: 220px;
+     border: 7px solid;
+     border-image: linear-gradient(rgb(15, 15, 26), rgb(46, 146, 185), rgb(4, 4, 160));
+     border-image-slice: 1;
+     padding-bottom: 20.7px;
+}
+.train {
+    max-width: 220px;
+     border: 7px solid;  
+     border-image: linear-gradient(rgb(18, 194, 12), rgb(4, 63, 23), rgb(138, 206, 11));
+     border-image-slice: 1; 
+}
+.watercolor {
+    max-width: 220px;
+     border: 7px solid; 
+     border-image: linear-gradient(rgb(245, 16, 27), rgb(236, 116, 116), rgb(71, 12, 12));
+     border-image-slice: 1;
+     padding-bottom: 43.4px;
+}
+
+div {
+    float: left;
+    margin: 10px;        
+}
+
