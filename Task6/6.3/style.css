@@ -1,0 +1,21 @@
+table{
+    width: 300px;
+    height: 300px;   
+}
+tr:nth-child(odd)
+td:nth-child(odd){
+    background: black;
+}
+tr:nth-child(even)
+td:nth-child(even){
+    background: black;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.img_top{
+    background: url('img/frame_top.png') repeat-x top;   
+}
+.img_left{
+    background: url('img/frame_left.png') repeat-y left; 
+}
+.img_right{
+    background: url('img/frame_right.png') repeat-y right;  
+}
+.img_bottom{
+    background: url('img/frame_bottom.png') repeat-x bottom;
+}
+.img_left_top{
+    background: url('img/frame_left_top.png') no-repeat left top;
+}
+.img_right_top{
+    background: url('img/frame_right_top.png') no-repeat right top;
+}
+.img_right_bottom{
+    background: url('img/frame_right_bottom.png') no-repeat right bottom;  
+}
+.img_left_bottom{
+    background: url('img/frame_left_bottom.png') no-repeat left bottom;
+}
+.text{
+    text-align:center;
+    padding: 449px;
+}

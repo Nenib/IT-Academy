@@ -1,0 +1,14 @@
+.content{
+    font-size: 50px;
+}
+.rating:hover,.rating:hover ~ .rating{
+    color: #0044ff;
+}
+.rating{
+    display: inline-block;
+}
+
+.rating::before{
+    content: "\272B";
+}
+
