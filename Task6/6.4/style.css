@@ -1,0 +1,36 @@
+.decision_one{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+li:not(:last-child){
+    border-right: 2px solid #ff0000;
+}
+table{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+td{
+    width: 160px;
+    text-align: center;
+    box-sizing: border-box;
+}
+td:not(:last-child){
+    border-right: 2px solid #ff0000;
+}
+.decision_two{
+    text-align: center;
+    margin-top: 50px;
+}
+.content{
+    width: 160px;
+    display: inline-block;
+}
+
+
+
