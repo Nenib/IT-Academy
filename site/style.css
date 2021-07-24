@@ -7,6 +7,9 @@
 body,html{
     height: 100%;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container  {
     max-width: 1540px;
     width: 100%;
@@ -212,7 +215,6 @@ main > .container {
     color: #f7d600;
     font-weight: 500;
     margin-top: 10px;
-    padding-left: 20px;
 }
 .text_section{
     font-weight: 350; 
@@ -226,9 +228,7 @@ main > .container {
     width: 100%;
     height: 300px;
     background: #fff;
-    -webkit-transform:translateY(-50%) skew(-20deg);
-    -moz-transform:translateY(-50%) skew(-20deg);
-    -o-transform:translateY(-50%) skew(-20deg);
+    transform:translateY(-50%) skew(-20deg);
     z-index: 1;
 }
 .slider_item {
@@ -417,9 +417,7 @@ main{
         padding: 22px 63px;
     }
     .slider_overlay {
-        -webkit-transform: translateY(-50%) skew(-13deg);
-        -moz-transform: translateY(-50%) skew(-13deg);
-        -o-transform: translateY(-50%) skew(-13deg);
+        transform: translateY(-50%) skew(-13deg);
     }
     .slider_item > span {
         font-size: 80px;
@@ -440,9 +438,7 @@ main{
     }
     
     .slider_overlay {
-        -webkit-transform: translateY(-50%) skew( 0deg);
-        -moz-transform: translateY(-50%) skew(0deg);
-        -o-transform: translateY(-50%) skew(0deg);
+        transform: translateY(-50%) skew( 0deg);
     }
     .text_section {
         padding: 0 0;
@@ -506,6 +502,10 @@ main{
     }
     .form {
         height: 70vh;
+    }
+
+    .menu{
+        font-size: 12px;
     }
 }
 @media(max-width:320px) {
