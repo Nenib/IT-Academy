@@ -16,7 +16,7 @@ html{
     margin: 0 auto;
 }
 .logo{
-    background: url('/img/logo.png') no-repeat;
+    background: url('/project/img/logo.png') no-repeat;
     background-size: contain;
     max-width: 60px;
     width: 100%;
@@ -39,7 +39,7 @@ header > .wrapper {
     display: none;
     width: 40px;
     height: 40px;
-    background:url(img/menu_icon.png) center center no-repeat;
+    background:url('/project/img/menu_icon.png') center center no-repeat;
     background-size: contain;
 }
 .links:last-child{
@@ -58,7 +58,7 @@ a{
     color: black;
 }
 main{
-    background: url('/img/main.png') no-repeat;
+    background: url('/project/img/main.png') no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -88,19 +88,19 @@ main{
     border-radius: 10px;
 }
 .guitars_1{
-    background: url(/img/guitar1.png) center center no-repeat;
+    background: url('/project/img/guitar1.png') center center no-repeat;
 }
 .guitars_2{
-    background: url(/img/guitar2.png) center center no-repeat;
+    background: url('/project/img/guitar2.png') center center no-repeat;
 }
 .guitars_3{
-    background: url(/img/guitar3.png) center center no-repeat;
+    background: url('/project/img/guitar3.png') center center no-repeat;
 }
 .guitars_4{
-    background: url(/img/guitar4.png) center center no-repeat;
+    background: url('/project/img/guitar4.png') center center no-repeat;
 }
 .guitars_5{
-    background: url(/img/guitar5.png) center center no-repeat;
+    background: url('/project/img/guitar5.png') center center no-repeat;
 }
 .guitars {
     width: 100%;
@@ -130,25 +130,25 @@ main{
     margin-top: 150px;
 }
 .courses_img_kids{
-    background: url('/img/kids.jpg') no-repeat;
+    background: url('/project/img/kids.jpg') no-repeat;
     max-width: 270px;
     width: 100%;
     height: 200px;
 }
 .courses_img_teens{
-    background: url('/img/Teens.jpg') no-repeat;
+    background: url('/project/img/Teens.jpg') no-repeat;
     max-width: 270px;
     width: 100%;
     height: 200px;
 }
 .courses_img_abults{
-    background: url('/img/Abults.jpg') no-repeat;
+    background: url('/project/img/Abults.jpg') no-repeat;
     max-width: 270px;
     width: 100%;
     height: 200px;
 }
 .courses_img_private_lessons{
-    background: url('/img/PrivateLessons.jpg') no-repeat;
+    background: url('/project/img/PrivateLessons.jpg') no-repeat;
     max-width: 270px;
     width: 100%;
     height: 200px;
@@ -221,15 +221,15 @@ main{
     font-size: 25px;
 }
 .teachers_img_team_1{
-    background: url('/img/team1.jpg') center center no-repeat;
+    background: url('/project/img/team1.jpg') center center no-repeat;
     width: 100%;
 }
 .teachers_img_team_2{
-    background: url('/img/team2.jpg') center center no-repeat;
+    background: url('/project/img/team2.jpg') center center no-repeat;
     width: 100%;
 }
 .teachers_img_team_3{
-    background: url('/img/team3.jpg') center center no-repeat;
+    background: url('/project/img/team3.jpg') center center no-repeat;
     width: 100%;
 }
 .teachers_img {
